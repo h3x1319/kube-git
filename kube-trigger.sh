@@ -8,7 +8,7 @@
 #set -o pipefail
 #set -o errexit
 #
-s3bucket="kubernetes-dump-lendico"
+s3bucket="kubernetes-dump-s3bucket"
 region="eu-central-1"
 basedir=`dirname "$ETCD_WATCH_KEY"`
 git_branch_name=$(git symbolic-ref --short HEAD)
