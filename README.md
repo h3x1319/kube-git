@@ -17,4 +17,4 @@ is a utility that watches for changes under kubernetes objects in etcd using etc
 is a small wrapper for git revision controll system as well as s3 cluster dump.
 
 # Howto
-etcdctl exec-watch --recursive /registry/deployments/dev-fed -- bash -c './kube-watch.sh'
+./kube-watch.sh
