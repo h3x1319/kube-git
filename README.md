@@ -13,7 +13,7 @@ Is a set of tools that allow to use git as a revision control system for kuberne
 # kube-watch.sh
 is a utility that watches for changes under kubernetes objects in etcd using etcdctl
 
-# kube-trigger
+# kube-trigger.sh
 is a small wrapper for git revision controll system as well as s3 cluster dump.
 
 # Howto
