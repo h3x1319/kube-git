@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# kube-watch - is a small utility set that servers for the purpose of kubernetes objects revision controll system and
-# kubernetes cluster dump, that can be used in order to migrate setup to different kubernetes cluster
-# kube-trigger - is a part of kube-watch bashinator that watches for changes under kubernetes objects in etcd
-# kube-dump - is a utility that dumps kubernetes object tree using kubectl mechanism for clean export 
-
 # Defaults
 namespace="default"
 resources="deployments"
