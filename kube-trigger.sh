@@ -1,13 +1,8 @@
 #!/bin/bash
 
-# kube-watch - is a small utility set that servers for the purpose of kubernetes objects revision controll system 
-# and kubernetes cluster dump, that can be used in order to migrate setup to different kubernetes cluster
-# kube-trigger - is a part of kube-watch that watches for changes under kubernetes objects in etcd
-# etcdctl exec-watch --recursive /registry/deployments/dev-fed -- bash -c './kube-watch.sh'
-
 #set -o pipefail
 #set -o errexit
-#
+
 s3bucket="kubernetes-dump-s3bucket"
 region="eu-central-1"
 basedir=`dirname "$ETCD_WATCH_KEY"`
