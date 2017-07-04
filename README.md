@@ -19,3 +19,9 @@ is a small wrapper for git revision controll system as well as s3 cluster dump.
 # Howto
 
 Edit defaults in the scripts and then run: ./kube-watch.sh
+
+
+# TODO: make a separate config file
+# TODO: merge into one script
+# TODO: better error handling
+# TODO: allow a list of objects to be monitored
