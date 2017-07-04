@@ -6,7 +6,7 @@
 # kube-dump - is a utility that dumps kubernetes object tree using kubectl mechanism for clean export 
 
 # Defaults
-namespace="defaults"
+namespace="default"
 resources="deployments"
 
 function usage() {
