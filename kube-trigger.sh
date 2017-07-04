@@ -3,8 +3,10 @@
 #set -o pipefail
 #set -o errexit
 
+# Defaults
 s3bucket="kubernetes-dump-s3bucket"
 region="eu-central-1"
+
 basedir=`dirname "$ETCD_WATCH_KEY"`
 git_branch_name=$(git symbolic-ref --short HEAD)
 git_commit_sha=$(git rev-parse --short HEAD)
