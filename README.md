@@ -10,11 +10,11 @@ Is a set of tools that allow to use git as a revision control system for kuberne
  - AWS credentials under ~/.aws or as a environmental variables
  - Git credentials under ~/.gitconfig or locally under ./.git
 
-# kube-watch.sh 
-is a small wrapper for git revision controll system as well as s3 cluster dump.
+# kube-watch.sh
+is a utility that watches for changes under kubernetes objects in etcd using etcdctl
 
 # kube-trigger
-is a utility that watches for changes under kubernetes objects in etcd using etcdctl
+is a small wrapper for git revision controll system as well as s3 cluster dump.
 
 # Howto
 etcdctl exec-watch --recursive /registry/deployments/dev-fed -- bash -c './kube-watch.sh'
