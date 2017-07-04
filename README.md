@@ -17,4 +17,5 @@ is a utility that watches for changes under kubernetes objects in etcd using etc
 is a small wrapper for git revision controll system as well as s3 cluster dump.
 
 # Howto
-./kube-watch.sh
+
+Edit defaults in the scripts and then run: ./kube-watch.sh
