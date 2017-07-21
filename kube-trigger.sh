@@ -66,7 +66,7 @@ dump_resources() {
               .spec.template.spec.dnsPolicy,
               .spec.template.spec.terminationGracePeriodSeconds,
               .spec.template.spec.restartPolicy
-          )' >> "./cluster-dump/cluster-dump.json"
+          )' > "./cluster-dump/cluster-dump-"${ns}".json"
   done
 }
 
